@@ -19,7 +19,10 @@ const ITINERARY_DATA = [
       "抵達第一大城柯羅（Koror），前往基地飯店辦理入住手續。",
       "行前破冰交流與生活環境定向，提醒在地生活文化與環保守則。"
     ],
-    focus: "深刻體會全球第一個將生態承諾寫入入境護照國家的永續初心。"
+    focus: "深刻體會全球第一個將生態承諾寫入入境護照國家的永續初心。",
+    spotName: "羅曼·莫圖國際機場（ROR）＆ 柯羅市區",
+    spotIntro: "帛琉國際門戶與最大島嶼生活中心，學員在此簽署入境生態誓詞，揭開永續見習序幕。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Palau+International+Airport+Koror"
   },
   {
     day: 2,
@@ -32,7 +35,10 @@ const ITINERARY_DATA = [
       "觀摩硨磲貝繁育苗圃與珊瑚礁微棲地監測系統，理解海島保育政策架構。",
       "召開首次研習小組討論，釐清後續實踐調查之研究分工與問題意識。"
     ],
-    focus: "探討台帛在海洋科研與氣候變遷因應層面的實質外交合作經驗。"
+    focus: "探討台帛在海洋科研與氣候變遷因應層面的實質外交合作經驗。",
+    spotName: "帛琉國際珊瑚礁中心（PICRC）＆ 中華民國駐帛琉大使館",
+    spotIntro: "太平洋頂尖海洋研究教育機構，設有硨磲貝培育槽與珊瑚白化救援監測系統。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Palau+International+Coral+Reef+Center+Koror"
   },
   {
     day: 3,
@@ -45,7 +51,10 @@ const ITINERARY_DATA = [
       "觀察軸孔珊瑚、鹿角珊瑚與熱帶魚群之微生境互動關係。",
       "記錄海洋保護區（PAN）制度落實狀況及海上觀光巡查執行細節。"
     ],
-    focus: "學習水下調查方法，實地體會帛琉嚴格的海洋空間規劃與執法成效。"
+    focus: "學習水下調查方法，實地體會帛琉嚴格的海洋空間規劃與執法成效。",
+    spotName: "洛克群島南部潟湖保護區（Rock Islands Southern Lagoon）",
+    spotIntro: "UNESCO 世界文化與自然雙重遺產，445座石灰岩島礁環抱清澈藍綠色潟湖。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Rock+Islands+Southern+Lagoon+Palau"
   },
   {
     day: 4,
@@ -58,7 +67,10 @@ const ITINERARY_DATA = [
       "研討極端氣候（如聖嬰現象水溫升高）對海洋湖泊無脊椎生物族群的長期影響。",
       "探討帛琉高價值、低衝擊（High-value, Low-impact）觀光政策之遊客承載量管控。"
     ],
-    focus: "反思脆弱生態島嶼在觀光收益與環境永續極限之間的權衡治理。"
+    focus: "反思脆弱生態島嶼在觀光收益與環境永續極限之間的權衡治理。",
+    spotName: "牛奶湖（Milky Way）＆ 水母湖（Jellyfish Lake）",
+    spotIntro: "世界級罕見海洋湖生態系統與天然火山白泥沉積地貌，兼顧觀光與總量管制研究。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Jellyfish+Lake+Palau"
   },
   {
     day: 5,
@@ -71,7 +83,10 @@ const ITINERARY_DATA = [
       "實地考察紅樹林作為海洋魚苗與甲殼類「天然育嬰房」的生物保育價值。",
       "深入理解「藍碳（Blue Carbon）」高效率碳封存機制與國際碳權潛力。"
     ],
-    focus: "透過低衝擊獨木舟視角，理解紅樹林在島嶼適應氣候變遷的生態屏障作用。"
+    focus: "透過低衝擊獨木舟視角，理解紅樹林在島嶼適應氣候變遷的生態屏障作用。",
+    spotName: "帛琉紅樹林藍碳生態水道（Palau Mangrove Ecosystem）",
+    spotIntro: "島嶼海岸線最重要的防浪屏障與幼魚育嬰所，具備高效碳匯能力與氣候韌性。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Palau+Mangrove+Ecosystem"
   },
   {
     day: 6,
@@ -84,7 +99,10 @@ const ITINERARY_DATA = [
       "聆聽地方文史工作者講述南島語族冒險遠洋航海、貿易結盟與貨幣社會學意涵。",
       "研討非物質文化資產保存與文化觀光發展的平衡實踐模式。"
     ],
-    focus: "從巨大石幣開鑿歷史，看見數百年前太平洋南島語族緊密相連的航海網絡。"
+    focus: "從巨大石幣開鑿歷史，看見數百年前太平洋南島語族緊密相連的航海網絡。",
+    spotName: "石頭錢幣島採石場遺址（Metuker Ra Bisech）",
+    spotIntro: "深藏於密林岩窟的南島航海奇蹟，數百年前雅浦人跨洋開鑿方解石巨幣之歷史聖地。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Metuker+Ra+Bisech+Palau"
   },
   {
     day: 7,
@@ -97,7 +115,10 @@ const ITINERARY_DATA = [
       "造訪帛琉落差最大之安得貌大瀑布（Ngardmau Waterfall），考察淡水水文環境。",
       "探討環島公路建設對島嶼水土保持與珊瑚礁流域沖刷的環境因應對策。"
     ],
-    focus: "跳脫純海洋視角，全面理解「山海相連」流域治理（Ridge to Reef）概念。"
+    focus: "跳脫純海洋視角，全面理解「山海相連」流域治理（Ridge to Reef）概念。",
+    spotName: "安得貌大瀑布（Ngardmau Waterfall）＆ 巴貝大島山林",
+    spotIntro: "帛琉全境落差最大之壯麗瀑布，位於重要天然集水區，展現島嶼雨林水系生態系。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Ngardmau+Waterfall+Palau"
   },
   {
     day: 8,
@@ -110,20 +131,27 @@ const ITINERARY_DATA = [
       "拜會當地母系氏族長老長姊（Clan Matriarchs），請益母系社會權力運作方式。",
       "深入探討傳統生態智慧——「禁漁禁採令（Bul）」如何成功轉化為現代海洋法規。"
     ],
-    focus: "南島傳統母系智慧與現代環境法制的跨世紀融合啟示。"
+    focus: "南島傳統母系智慧與現代環境法制的跨世紀融合啟示。",
+    spotName: "艾萊州傳統男人會館（Airai Bai）",
+    spotIntro: "百年傳統木造茅草會議廳，柱樑彩繪神話故事版，象徵傳統母系部落治理法度。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Airai+Bai+Palau"
   },
   {
     day: 9,
     date: "116/08/06 (四)",
-    title: "帛琉文史典藏與南島工藝復興",
-    phase: "南島文史",
+    alert: "因海況不佳，行程已調整",
+    title: "田野數據統整與青年行動方案共創",
+    phase: "行動統整",
     activities: [
-      "參訪密克羅尼西亞歷史最悠久的帛琉國家博物館（Belau National Museum）。",
-      "觀摩南島傳統航海獨木舟結構、編織工藝、貝殼飾品與各族群遷徙地圖。",
-      "造訪艾佩森博物館（Etpison Museum），研習海洋生態保育宣導展示手法。",
-      "與帛琉傳統工藝師交流傳統雕版故事版（Storyboards）的現代演繹。"
+      "因外海風浪海況不佳，行程機動調整為室內專題工作坊，集中梳理前段田野觀察數據。",
+      "全體召開工作坊，系統化彙整前 8 天之海洋生態、紅樹林藍碳與部落文史記錄。",
+      "運用設計思考（Design Thinking）方法，聚焦帛琉與台灣共鳴之青年永續倡議議題。",
+      "進行小組行動方案簡報製作，擬定具可行性之「台帛青年永續實踐倡議草案」。"
     ],
-    focus: "思考博物館在守護少數族群語言、記憶與文化認同的動態角色。"
+    focus: "因應海況調整轉入室內深度研討，將見習感悟凝鍊為具備論述力與落地價值的實質行動成果。",
+    spotName: "帛琉社區學院研習基地（Palau Community College）",
+    spotIntro: "柯羅市中心最高學術交流重鎮，提供完善之多功能研討會議廳與青年工作坊空間，作為數據統整之重要研習基地。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Palau+Community+College+Koror"
   },
   {
     day: 10,
@@ -136,7 +164,10 @@ const ITINERARY_DATA = [
       "走訪在地社區小農菜園，了解島嶼在高度依賴進口糧食下的自給挑戰。",
       "就熱帶海島因應氣候風險之農業調適策略進行深度交流。"
     ],
-    focus: "體會台灣農業軟實力如何協助太平洋友邦深耕糧食安全與低碳生產。"
+    focus: "體會台灣農業軟實力如何協助太平洋友邦深耕糧食安全與低碳生產。",
+    spotName: "台灣技術團示範農場（ICDF Taiwan Technical Mission）",
+    spotIntro: "台帛農業合作重鎮，示範果菜引種育苗、有機堆肥與海島低碳友善循環耕作。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Taiwan+Technical+Mission+Palau"
   },
   {
     day: 11,
@@ -149,7 +180,10 @@ const ITINERARY_DATA = [
       "參訪在地玻璃與塑膠再生工坊，了解將廢棄玻璃瓶轉化為文創手工品之模式。",
       "體驗循環手作工藝，探討偏遠海島廢棄物逆向物流與永續去化方案。"
     ],
-    focus: "親身實踐源頭減量，將清理海廢的勞動化為具體可行的循環提案。"
+    focus: "親身實踐源頭減量，將清理海廢的勞動化為具體可行的循環提案。",
+    spotName: "柯羅環保再生工坊與海灘廢棄物監測站",
+    spotIntro: "推動廢棄玻璃回收再製與海廢監測據點，實踐偏遠海島循環經濟與青年教育。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Koror+Palau"
   },
   {
     day: 12,
@@ -162,20 +196,26 @@ const ITINERARY_DATA = [
       "體驗帛琉傳統地熱烹調在地食材（Kankum, Taro 等），進行味蕾文化交流。",
       "建立台帛青年夥伴永續溝通社群，奠定後續跨海長期連結基石。"
     ],
-    focus: "青年世代以同理心與平等對話，激盪跨越海洋的青年永續行動同盟。"
+    focus: "青年世代以同理心與平等對話，激盪跨越海洋的青年永續行動同盟。",
+    spotName: "帛琉社區大學活動中心（Palau Community College）",
+    spotIntro: "台帛青年跨文化對話與論壇會場，促進氣候議題、文化認同與在地生活交流。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Palau+Community+College+Koror"
   },
   {
     day: 13,
     date: "116/08/10 (一)",
-    title: "田野數據統整與青年行動方案共創",
-    phase: "行動統整",
+    title: "帛琉文史典藏與南島工藝復興",
+    phase: "南島文史",
     activities: [
-      "全體召開工作坊，系統化梳理過去 12 天的田野筆記、影像與訪談記錄。",
-      "運用設計思考（Design Thinking）方法，聚焦帛琉與台灣共鳴之永續議題。",
-      "進行小組行動方案簡報製作，擬定具可行性之「台帛青年永續實踐倡議」。",
-      "邀請隨團師長與在地諮詢顧問進行預審回饋與優化指引。"
+      "參訪密克羅尼西亞歷史最悠久的帛琉國家博物館（Belau National Museum）。",
+      "觀摩南島傳統航海獨木舟結構、編織工藝、貝殼飾品與各族群遷徙地圖。",
+      "造訪艾佩森博物館（Etpison Museum），研習海洋生態保育宣導展示手法。",
+      "與帛琉傳統工藝師交流傳統雕版故事版（Storyboards）的現代演繹。"
     ],
-    focus: "將見習感悟凝鍊為具備論述力與落地價值的實質行動成果。"
+    focus: "思考博物館在守護少數族群語言、記憶與文化認同的動態角色。（由 8/06 因海況對調至今日）",
+    spotName: "帛琉國家博物館（Belau National Museum）＆ 艾佩森博物館",
+    spotIntro: "密克羅尼西亞歷史最悠久的國家博物館（創立於1955年），珍藏南島航海獨木舟、傳統木雕故事版與文物（原排定 8/06 調整至今日）。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Belau+National+Museum+Koror+Palau"
   },
   {
     day: 14,
@@ -188,7 +228,10 @@ const ITINERARY_DATA = [
       "學員輪流進行全英文/中英雙語專題簡報，展現台灣青年的國際行動力。",
       "晚間舉辦文化惜別茶會，共同演出傳統樂舞，互道珍重與祝福。"
     ],
-    focus: "向友邦及師長展現圓夢實踐豐碩成果，深化兩國人民友誼。"
+    focus: "向友邦及師長展現圓夢實踐豐碩成果，深化兩國人民友誼。",
+    spotName: "中華民國駐帛琉共和國大使館會議廳",
+    spotIntro: "台帛正式外交與國際合作樞紐，本梯次青年圓夢計畫成果發表專題簡報會場。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Embassy+of+the+Republic+of+China+Taiwan+in+Palau"
   },
   {
     day: 15,
@@ -201,7 +244,10 @@ const ITINERARY_DATA = [
       "平安返抵台灣桃園國際機場，完成為期 15 天之南島永續圓夢實踐旅程。",
       "返國後續行動展望：籌備校園與公共分享會，擴大青年圓夢外溢效應。"
     ],
-    focus: "不是旅程的終點，而是青年將永續智慧化為在地行動的嶄新起點。"
+    focus: "不是旅程的終點，而是青年將永續智慧化為在地行動的嶄新起點。",
+    spotName: "羅曼·莫圖國際機場（ROR）",
+    spotIntro: "告別友邦帛琉，搭機返抵桃園國際機場，持續在台灣扎根擴散南島永續影響力。",
+    spotMapUrl: "https://www.google.com/maps/search/?api=1&query=Palau+International+Airport+Koror"
   }
 ];
 
@@ -267,12 +313,22 @@ const ATTRACTIONS_DATA = [
     mapQuery: "Palau International Coral Reef Center Koror"
   },
   {
+    id: "pcc-workshop",
+    name: "帛琉社區學院研習基地",
+    nameEn: "Palau Community College (PCC)",
+    tag: "青年研習 · 8/06 行程",
+    img: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    intro: "帛琉在地的最高學府與國際交流重鎮，擁有完善的多功能研討會議廳與青年工作坊空間。8/06 因外海海況不佳機動調整至此展開設計思考工作坊，進行田野數據統整與永續實踐倡議共創。",
+    tip: "校園具備良好學術氛圍，與在地師生互動請遵守學術禮儀，室內工作坊落實低碳節能規範。",
+    mapQuery: "Palau Community College Koror"
+  },
+  {
     id: "national-museum",
     name: "帛琉國家博物館",
     nameEn: "Belau National Museum",
-    tag: "南島人文與歷史典藏",
+    tag: "南島人文 · 8/10 行程",
     img: "https://images.unsplash.com/photo-1518467166778-b88f373ffec7?auto=format&fit=crop&w=800&q=80",
-    intro: "密克羅尼西亞歷史最悠久的博物館，成立於1955年。典藏數千件珍貴的南島航海器物、貝幣、編織陶器與殖民時期歷史檔案，戶外還建有一座完整復原的傳統 Bai 男人會館與植物園。",
+    intro: "密克羅尼西亞歷史最悠久的博物館，成立於1955年。典藏數千件珍貴的南島航海器物、貝幣、編織陶器與殖民時期歷史檔案，戶外還建有一座完整復原的傳統 Bai 男人會館與植物園。（原排定 8/06，因海況調整至 8/10 參訪）",
     tip: "館內特設有南島語族航海路線對照圖，可清晰看見台灣原住民與帛琉語言文化之高度親緣性。",
     mapQuery: "Belau National Museum Koror Palau"
   },
@@ -298,6 +354,7 @@ const INITIAL_CHECKLIST = [
   { id: "chk_6", category: "documents", text: "身分證正反面影本、大頭照2張（遺失備用）", checked: false, isDefault: true },
 
   // marine
+  { id: "chk_raincoat_drybag", category: "marine", text: "雨衣／防水袋", checked: false, isDefault: true },
   { id: "chk_7", category: "marine", text: "海洋友善防曬乳（法定 Reef-Safe，不可含禁藥成分）", checked: true, isDefault: true },
   { id: "chk_8", category: "marine", text: "長袖防曬水母衣／防磨衣（UPF 50+）", checked: true, isDefault: true },
   { id: "chk_9", category: "marine", text: "個人浮潛面鏡與防浪呼吸管（確保密合度）", checked: false, isDefault: true },
@@ -427,7 +484,25 @@ const AppState = {
   currencyDisplay: "ALL", // ALL, USD, TWD
 
   init() {
-    this.checklist = Storage.get("palau_checklist_v1", INITIAL_CHECKLIST);
+    let savedList = Storage.get("palau_checklist_v1", null);
+    if (!savedList || !Array.isArray(savedList)) {
+      savedList = INITIAL_CHECKLIST;
+    } else {
+      // Ensure "雨衣／防水袋" is always present in the checklist
+      const hasRaincoat = savedList.some(item => item.text === "雨衣／防水袋");
+      if (!hasRaincoat) {
+        savedList.unshift({
+          id: "chk_raincoat_drybag",
+          category: "marine",
+          text: "雨衣／防水袋",
+          checked: false,
+          isDefault: true
+        });
+      }
+    }
+    this.checklist = savedList;
+    Storage.set("palau_checklist_v1", this.checklist);
+
     this.expenses = Storage.get("palau_expenses_v1", INITIAL_EXPENSES);
     this.journals = Storage.get("palau_journals_v1", INITIAL_JOURNALS);
 
@@ -538,6 +613,12 @@ const AppState = {
 
     container.innerHTML = filtered.map(item => `
       <div class="day-card" data-day="${item.day}">
+        ${item.alert ? `
+          <div class="day-alert-notice">
+            <span class="day-alert-badge">行程調整</span>
+            <span class="day-alert-text">⚠️ ${item.alert}</span>
+          </div>
+        ` : ''}
         <div class="day-card-header">
           <div class="day-badge-wrap">
             <span class="day-badge-num">Day ${item.day < 10 ? '0' + item.day : item.day}</span>
@@ -554,6 +635,20 @@ const AppState = {
             <span style="font-weight: 700; color: #2d6a75; white-space: nowrap;">🎯 核心目標：</span>
             <span>${item.focus}</span>
           </div>
+          ${item.spotName ? `
+            <div class="day-spot-box">
+              <div class="day-spot-header">
+                <span class="day-spot-name">📍 ${item.spotName}</span>
+                ${item.spotMapUrl ? `
+                  <a href="${item.spotMapUrl}" target="_blank" rel="noopener noreferrer" class="btn-day-map">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    Google 地圖
+                  </a>
+                ` : ''}
+              </div>
+              ${item.spotIntro ? `<p class="day-spot-intro">${item.spotIntro}</p>` : ''}
+            </div>
+          ` : ''}
         </div>
       </div>
     `).join("");
