@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Palau｜帛琉南島永續實踐之旅</title>
+  <meta name="description" content="青年百億海外圓夢基金計畫－海外翱翔組 N-10-3 帛琉南島永續實踐計畫專屬行動指南。探索帛琉每日行程、景點介紹、行前裝備清單、旅費預算記帳與每日日誌。" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Fonts for crisp typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Sticky Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="brand-link" data-nav-target="home">
+        <div class="brand-icon-wrap">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 12h20M2 12a10 10 0 0 1 10-10 10 10 0 0 1 10 10M2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10"></path>
+            <circle cx="12" cy="12" r="3"></circle>
+          </svg>
+        </div>
+        <div>
+          <span class="brand-title">Palau｜帛琉南島永續實踐之旅</span>
+          <span class="brand-subtitle">青年百億海外圓夢計畫 · 海外翱翔組 N-10-3</span>
+        </div>
+      </div>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-desktop">
+        <button type="button" class="nav-item-btn active" data-nav-target="home">
+          <span>首頁</span>
+        </button>
+        <button type="button" class="nav-item-btn" data-nav-target="itinerary">
+          <span>行程介紹</span>
+        </button>
+        <button type="button" class="nav-item-btn" data-nav-target="attractions">
+          <span>景點導覽</span>
+        </button>
+        <button type="button" class="nav-item-btn" data-nav-target="checklist">
+          <span>行前準備</span>
+        </button>
+        <button type="button" class="nav-item-btn" data-nav-target="budget">
+          <span>預算記帳</span>
+        </button>
+        <button type="button" class="nav-item-btn" data-nav-target="journal">
+          <span>旅程日誌</span>
+        </button>
+      </nav>
+
+      <!-- Desktop Status Badge -->
+      <div class="header-action-badge">
+        <span class="header-badge-dot"></span>
+        <span>出發倒數：<strong id="departureCountdown">計算中...</strong></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       VIEW 1: 首頁 (Home)
+       ========================================================================= -->
+  <main id="view-home" class="page-view active-view">
+    <div class="container">
+      
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <img
+          src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80"
+          alt="Palau Rock Islands Aerial Turquoise Lagoon"
+          class="hero-bg-img"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-badge-row">
+            <span class="hero-badge highlight">116年7月29日 — 8月12日（為期 15 日）</span>
+            <span class="hero-badge">教育部青年發展署指導</span>
+            <span class="hero-badge">海外翱翔組 N-10-3 案</span>
+          </div>
+
+          <h1 class="hero-title">
+            Palau 帛琉<br />
+            南島永續實踐之旅
+          </h1>
+
+          <p class="hero-desc">
+            前進太平洋友邦帛琉，跨越洛克群島碧藍潟湖、探索紅樹林藍碳與石錢島歷史秘境。結合南島文化交流、海洋生態保育與青年在地行動，把太平洋的永續智慧化為改變世界的力量。
+          </p>
+
+          <div class="hero-stats-grid">
+            <div class="stat-item">
+              <span class="stat-val">15 天</span>
+              <span class="stat-label">深度永續實踐</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val">8+ 處</span>
+              <span class="stat-label">經典田野踏查地標</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val">100%</span>
+              <span class="stat-label">友善海洋生態實踐</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-val">16 位</span>
+              <span class="stat-label">跨域青年行動夥伴</span>
+            </div>
+          </div>
+
+          <div class="hero-btn-row">
+            <button type="button" class="btn-primary" data-nav-target="itinerary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              瀏覽 15 日完整行程
+            </button>
+            <button type="button" class="btn-sand" data-nav-target="checklist">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                <path d="M9 11l3 3L22 4"></path>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+              </svg>
+              核對行前準備清單
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Feature Navigation Cards -->
+      <div class="home-feature-grid">
+        <div class="feature-box" data-nav-target="itinerary">
+          <div>
+            <div class="feature-icon-circle bg-teal-soft">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <h3 class="feature-title">每日行程規劃</h3>
+            <p class="feature-desc">依照官方計畫整理 15 日每日考察活動與學習目標，清晰掌握每一天步調。</p>
+          </div>
+          <span class="feature-link-text">進入查看行程 →</span>
+        </div>
+
+        <div class="feature-box" data-nav-target="attractions">
+          <div>
+            <div class="feature-icon-circle bg-sage-soft">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <h3 class="feature-title">景點導覽與地圖</h3>
+            <p class="feature-desc">精選洛克群島、石頭錢幣島、紅樹林與瀑布等核心地標，附 Google 地圖直連。</p>
+          </div>
+          <span class="feature-link-text">瀏覽景點地圖 →</span>
+        </div>
+
+        <div class="feature-box" data-nav-target="checklist">
+          <div>
+            <div class="feature-icon-circle bg-sand-soft">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 11 12 14 22 4"></polyline>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">行前行李清單</h3>
+            <p class="feature-desc">重要證件、海洋友善防曬與防水裝備勾選，自動本機保存進度不流失。</p>
+          </div>
+          <span class="feature-link-text">準備必備物品 →</span>
+        </div>
+
+        <div class="feature-box" data-nav-target="budget">
+          <div>
+            <div class="feature-icon-circle bg-blue-soft">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="feature-title">旅程預算記帳</h3>
+            <p class="feature-desc">記錄各項美金與台幣開銷，自動即時換算與加總統計，掌握花費明細。</p>
+          </div>
+          <span class="feature-link-text">管理旅程開銷 →</span>
+        </div>
+      </div>
+
+      <!-- Project Background & Palau Intro Grid -->
+      <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; margin-bottom: 2.5rem;">
+        <div class="card" style="padding: 2rem;">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1rem;">
+            <span class="section-tag">計畫背景與宗旨</span>
+            <span class="section-tag section-tag-sand">原夢萬里 · 全球實踐</span>
+          </div>
+          <h2 style="font-size: 1.5rem; color: var(--primary-dark); margin-bottom: 0.85rem;">
+            青年百億海外圓夢基金計畫－海外翱翔組 N-10-3
+          </h2>
+          <p style="color: var(--text-body); font-size: 0.95rem; line-height: 1.8; margin-bottom: 1.25rem;">
+            本計畫為教育部青年發展署主辦、結合原住民族委員會支持之海外翱翔年度旗艦專案。針對 18 至 30 歲具備環境科學、生態保育、南島原民文化及永續治理熱忱的青年，組隊前往我國太平洋邦交國——帛琉共和國（Palau），進行為期 15 天的跨域海外見習。
+          </p>
+          <div style="background: var(--bg-subtle); padding: 1.25rem; border-radius: var(--radius-md); border-left: 4px solid var(--primary);">
+            <strong style="color: var(--primary-dark); display: block; margin-bottom: 6px;">三大核心實踐主軸：</strong>
+            <ul style="padding-left: 1.25rem; font-size: 0.9rem; color: var(--text-body); line-height: 1.7;">
+              <li><strong>海洋生態與珊瑚保育：</strong>走訪帛琉國際珊瑚礁中心（PICRC）、洛克群島南部潟湖，親身體驗硨磲貝復育與海洋保護區（PAN）科學機制。</li>
+              <li><strong>南島文化歷史溯源：</strong>深入探訪石頭錢幣島採石場（Metuker Ra Bisech）、艾萊州傳統男人會館（Airai Bai），理解南島語族航海交流與母系部落治理。</li>
+              <li><strong>氣候韌性與在地行動：</strong>考察紅樹林藍碳水道與有機循環農業，結合青年共創工作坊，產出具備落地潛力的永續倡議成果。</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Palau Pledge Spotlight Banner -->
+      <div class="pledge-spotlight">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 0.5rem;">
+          <span style="font-size: 1.4rem;">📜</span>
+          <span style="font-size: 0.85rem; font-weight: 800; color: var(--secondary-dark); letter-spacing: 1px; text-transform: uppercase;">
+            The Palau Pledge 帛琉誓詞
+          </span>
+        </div>
+        <h3 style="font-size: 1.35rem; color: var(--primary-dark); margin-bottom: 0.75rem;">
+          全球首個印在入境護照上的生態誓言
+        </h3>
+        <p style="font-size: 0.92rem; color: var(--text-body); line-height: 1.7;">
+          帛琉是全世界第一個要求所有入境訪客親筆在護照簽證上簽名承諾維護環境的國家。這首寫給島嶼子民的詩篇，也是每一位參與者出發前最莊嚴的約定：
+        </p>
+        <blockquote class="pledge-quote">
+          「帛琉的兒女們，我身為貴客，謹在此立誓：<br />
+          我將保護並維護你們美麗而脆弱的島嶼家園。<br />
+          我保證踏著輕柔的腳步，僅留下可以被沖刷的足跡；<br />
+          我只帶走不會被剝奪的記憶，絕不索取未曾被贈予的一切。<br />
+          我絕不傷害那些不曾傷害我的生靈。」
+        </blockquote>
+        <div style="display: flex; flex-wrap: wrap; gap: 8px; font-size: 0.8rem; color: var(--text-muted);">
+          <span>🤿 禁止採集珊瑚與野生生物</span>
+          <span>•</span>
+          <span>🧴 全面禁用有害珊瑚防曬乳</span>
+          <span>•</span>
+          <span>🚮 帶走所有隨身垃圾</span>
+          <span>•</span>
+          <span>🏛️ 尊重傳統氏族文化禁忌</span>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- =========================================================================
+       VIEW 2: 行程介紹 (Itinerary)
+       ========================================================================= -->
+  <section id="view-itinerary" class="page-view">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-tag">每日行程安排</span>
+        <h2 class="section-title">15 日南島永續實踐行程表</h2>
+        <p class="section-subtitle">
+          圓夢期間：116年7月29日至8月12日（含飛行日，共15日）。嚴格依據 N-10-3 計畫規劃，涵蓋官方拜會、海洋生態調查、南島文史走讀與青年行動發表。
+        </p>
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="itinerary-filter-bar">
+        <button type="button" class="filter-pill active" data-filter="all" onclick="AppState.setItineraryFilter('all')">
+          全部行程 (15天)
+        </button>
+        <button type="button" class="filter-pill" data-filter="sea" onclick="AppState.setItineraryFilter('sea')">
+          🤿 海洋與藍碳
+        </button>
+        <button type="button" class="filter-pill" data-filter="culture" onclick="AppState.setItineraryFilter('culture')">
+          🏛️ 南島文史尋根
+        </button>
+        <button type="button" class="filter-pill" data-filter="eco" onclick="AppState.setItineraryFilter('eco')">
+          🌿 山林水系與永續
+        </button>
+        <button type="button" class="filter-pill" data-filter="action" onclick="AppState.setItineraryFilter('action')">
+          🤝 青年交流與發表
+        </button>
+      </div>
+
+      <!-- Dynamic Itinerary List Container -->
+      <div id="itineraryList" class="itinerary-grid">
+        <!-- Rendered via AppState.renderItinerary() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VIEW 3: 景點介紹 (Attractions)
+       ========================================================================= -->
+  <section id="view-attractions" class="page-view">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-tag">在地景點導覽</span>
+        <h2 class="section-title">行程核心景點與生態地標</h2>
+        <p class="section-subtitle">
+          深入洛克群島、石頭錢幣島、紅樹林與高聳瀑布，每個景點皆附有深度實踐解說與 Google 地圖直連導航。
+        </p>
+      </div>
+
+      <!-- Attractions Grid -->
+      <div id="attractionsGrid" class="attractions-grid">
+        <!-- Rendered via AppState.renderAttractions() -->
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VIEW 4: 行前準備清單 (Checklist)
+       ========================================================================= -->
+  <section id="view-checklist" class="page-view">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-tag">出發必備</span>
+        <h2 class="section-title">行前準備與行李清單</h2>
+        <p class="section-subtitle">
+          專為熱帶海島與田野調查設計之清單。所有勾選狀態皆自動儲存於本機瀏覽器（localStorage），重新整理頁面也不會遺失！
+        </p>
+      </div>
+
+      <div class="checklist-container">
+        <!-- Progress bar and counter -->
+        <div class="progress-header">
+          <span id="checkStatText" class="progress-stat-text">準備進度：計算中...</span>
+          <span id="checkPctBadge" class="progress-pct-badge">0%</span>
+        </div>
+        <div class="progress-track">
+          <div id="checkProgressFill" class="progress-fill" style="width: 0%;"></div>
+        </div>
+
+        <!-- Filter and Action Toolbar -->
+        <div class="checklist-toolbar">
+          <div class="category-tags-wrap">
+            <button type="button" class="filter-pill active" data-cat="all" onclick="AppState.setChecklistFilter('all')">
+              全部
+            </button>
+            <button type="button" class="filter-pill" data-cat="documents" onclick="AppState.setChecklistFilter('documents')">
+              📋 證件文件
+            </button>
+            <button type="button" class="filter-pill" data-cat="marine" onclick="AppState.setChecklistFilter('marine')">
+              🤿 海洋裝備
+            </button>
+            <button type="button" class="filter-pill" data-cat="fieldwork" onclick="AppState.setChecklistFilter('fieldwork')">
+              📝 田野設備
+            </button>
+            <button type="button" class="filter-pill" data-cat="clothing" onclick="AppState.setChecklistFilter('clothing')">
+              👕 衣物防護
+            </button>
+            <button type="button" class="filter-pill" data-cat="eco" onclick="AppState.setChecklistFilter('eco')">
+              🌿 永續用品
+            </button>
+            <button type="button" class="filter-pill" data-cat="uncompleted" onclick="AppState.setChecklistFilter('uncompleted')">
+              ⏳ 尚未完成
+            </button>
+          </div>
+
+          <div class="checklist-action-btns">
+            <button type="button" class="filter-pill" style="color: #8c5353;" onclick="AppState.resetChecklist()">
+              重置勾選
+            </button>
+          </div>
+        </div>
+
+        <!-- Grouped List -->
+        <div id="checklistGroups">
+          <!-- Rendered via AppState.renderChecklist() -->
+        </div>
+
+        <!-- Add Custom Item Form -->
+        <div class="add-custom-box">
+          <div style="flex: 1; min-width: 200px;">
+            <input
+              type="text"
+              id="newCheckItemText"
+              class="input-styled"
+              placeholder="新增您個人想要攜帶的物品..."
+              style="width: 100%;"
+            />
+          </div>
+          <select id="newCheckItemCat" class="input-styled" style="width: 140px;">
+            <option value="custom">自訂項目</option>
+            <option value="documents">重要證件</option>
+            <option value="marine">海洋裝備</option>
+            <option value="fieldwork">田野設備</option>
+            <option value="clothing">衣服防護</option>
+            <option value="eco">永續用品</option>
+          </select>
+          <button type="button" id="btnAddCheckItem" class="btn-primary" style="padding: 8px 18px; font-size: 0.88rem;">
+            ＋ 加入清單
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VIEW 5: 預算記帳 (Budget)
+       ========================================================================= -->
+  <section id="view-budget" class="page-view">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-tag">財務透明</span>
+        <h2 class="section-title">旅程花費與預算記帳</h2>
+        <p class="section-subtitle">
+          支援美金（USD）與新台幣（TWD）雙幣別輸入，自動統計總花費，紀錄隨身儲存於本機瀏覽器。
+        </p>
+      </div>
+
+      <!-- Metric Cards -->
+      <div class="budget-overview-grid">
+        <div class="budget-metric-card">
+          <div class="budget-metric-title">總累計支出 (USD)</div>
+          <div id="totalExpenseUsd" class="budget-metric-amount">$ 0.00</div>
+          <div class="budget-metric-sub">帛琉當地通用幣別</div>
+        </div>
+        <div class="budget-metric-card">
+          <div class="budget-metric-title">折合新台幣 (TWD)</div>
+          <div id="totalExpenseTwd" class="budget-metric-amount" style="color: var(--secondary-dark);">NT$ 0</div>
+          <div class="budget-metric-sub">以參考匯率 1:32.5 計算</div>
+        </div>
+        <div class="budget-metric-card">
+          <div class="budget-metric-title">支出紀錄總筆數</div>
+          <div id="expenseCount" class="budget-metric-amount" style="color: var(--text-body);">0 筆</div>
+          <div class="budget-metric-sub">隨時可新增與刪除</div>
+        </div>
+        <div class="budget-metric-card">
+          <div class="budget-metric-title">資料儲存機制</div>
+          <div class="budget-metric-amount" style="font-size: 1.15rem; color: #2bb673; margin-top: 4px;">
+            ✓ 本機安全保留
+          </div>
+          <div class="budget-metric-sub">重新整理網頁不遺失</div>
+        </div>
+      </div>
+
+      <!-- Main Budget Content Grid -->
+      <div class="budget-content-grid">
+        <!-- Left: Form -->
+        <div class="form-panel">
+          <h3 style="font-size: 1.15rem; color: var(--primary-dark); margin-bottom: 1rem; display: flex; align-items: center; gap: 6px;">
+            <span>➕</span> 新增一筆支出
+          </h3>
+          <form id="expenseForm">
+            <div class="form-group">
+              <label class="form-label" for="expTitle">支出項目名稱 *</label>
+              <input type="text" id="expTitle" class="input-styled" placeholder="例：洛克群島許可證、椰子水..." required style="width: 100%;" />
+            </div>
+
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 8px;" class="form-group">
+              <div>
+                <label class="form-label" for="expAmount">金額 *</label>
+                <input type="number" id="expAmount" step="0.01" class="input-styled" placeholder="0.00" required style="width: 100%;" />
+              </div>
+              <div>
+                <label class="form-label" for="expCurrency">幣別</label>
+                <select id="expCurrency" class="input-styled" style="width: 100%;">
+                  <option value="USD">USD ($)</option>
+                  <option value="TWD">TWD (NT$)</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;" class="form-group">
+              <div>
+                <label class="form-label" for="expCategory">支出類別</label>
+                <select id="expCategory" class="input-styled" style="width: 100%;">
+                  <option value="activity">🤿 門票活動</option>
+                  <option value="food">🍽️ 餐飲美食</option>
+                  <option value="transport">🚢 交通接駁</option>
+                  <option value="culture">🏛️ 文化禮俗</option>
+                  <option value="gear">🎒 裝備耗材</option>
+                  <option value="souvenir">🎁 紀念品</option>
+                  <option value="other">🏷️ 其他雜費</option>
+                </select>
+              </div>
+              <div>
+                <label class="form-label" for="expDate">日期</label>
+                <input type="date" id="expDate" class="input-styled" style="width: 100%;" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="expNotes">備註說明（可選）</label>
+              <input type="text" id="expNotes" class="input-styled" placeholder="例：小組平分、門票收據保存..." style="width: 100%;" />
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; margin-top: 0.5rem;">
+              確認儲存支出
+            </button>
+          </form>
+        </div>
+
+        <!-- Right: Expense List -->
+        <div class="budget-table-wrap">
+          <div class="budget-table-header">
+            <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--primary-dark);">
+              花費紀錄清單
+            </h3>
+            <span style="font-size: 0.8rem; color: var(--text-muted);">點擊垃圾桶圖示可刪除單筆紀錄</span>
+          </div>
+
+          <div id="expenseList" class="expense-list">
+            <!-- Rendered via AppState.renderBudget() -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       VIEW 6: 旅程日誌 (Journal)
+       ========================================================================= -->
+  <section id="view-journal" class="page-view">
+    <div class="container">
+      <div class="section-header-block">
+        <span class="section-tag">每日反思</span>
+        <h2 class="section-title">田野心得與旅程日誌</h2>
+        <p class="section-subtitle">
+          記錄你在帛琉的每一次文化觸動、海洋驚喜與永續反思。所有日記皆儲存在本機瀏覽器，安全不遺失。
+        </p>
+      </div>
+
+      <div class="journal-layout">
+        <!-- Left: Form -->
+        <div class="journal-form-card">
+          <h3 style="font-size: 1.15rem; color: var(--primary-dark); margin-bottom: 1rem; display: flex; align-items: center; gap: 6px;">
+            <span>✍️</span> 撰寫今日日誌
+          </h3>
+
+          <form id="journalForm">
+            <div class="form-group">
+              <label class="form-label">今日心情與天氣</label>
+              <div class="mood-selector">
+                <button type="button" class="mood-btn selected" data-mood="✨ 感動">✨ 感動</button>
+                <button type="button" class="mood-btn" data-mood="🌊 碧海">🌊 碧海</button>
+                <button type="button" class="mood-btn" data-mood="☀️ 晴朗">☀️ 晴朗</button>
+                <button type="button" class="mood-btn" data-mood="🏝️ 震撼">🏝️ 震撼</button>
+                <button type="button" class="mood-btn" data-mood="💭 深刻">💭 深刻</button>
+                <button type="button" class="mood-btn" data-mood="🌿 充實">🌿 充實</button>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="jrnTitle">日誌標題 *</label>
+              <input type="text" id="jrnTitle" class="input-styled" placeholder="例：在無毒水母湖的生態反思..." required style="width: 100%;" />
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;" class="form-group">
+              <div>
+                <label class="form-label" for="jrnDate">記錄日期</label>
+                <input type="date" id="jrnDate" class="input-styled" style="width: 100%;" />
+              </div>
+              <div>
+                <label class="form-label" for="jrnTag">行程標籤</label>
+                <input type="text" id="jrnTag" class="input-styled" placeholder="例：Day 4 水母湖" style="width: 100%;" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="jrnContent">心得感想與田野筆記 *</label>
+              <textarea
+                id="jrnContent"
+                class="input-styled"
+                rows="7"
+                placeholder="寫下今天在當地的所見所聞、對話訪談、文化衝擊或永續思考..."
+                required
+                style="width: 100%; resize: vertical;"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%;">
+              保存此篇日誌
+            </button>
+          </form>
+        </div>
+
+        <!-- Right: Saved Journal Entries -->
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--primary-dark);">
+              歷史日誌筆記
+            </h3>
+            <span id="journalCountBadge" class="section-tag" style="margin-bottom: 0;">0 篇</span>
+          </div>
+
+          <div id="journalEntriesList" class="journal-entries-container">
+            <!-- Rendered via AppState.renderJournals() -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       Site Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand-title">Palau｜帛琉南島永續實踐之旅</div>
+          <p class="footer-p">
+            本專案係配合教育部青年發展署「青年百億海外圓夢基金計畫」海外翱翔組 N-10-3 案專屬建置之實踐行動指南。期盼透過南島文化交流與海洋生態研習，讓台灣青年在太平洋的蔚藍中找到永續實踐的志向。
+          </p>
+        </div>
+        <div>
+          <div class="footer-col-title">快速導覽</div>
+          <ul class="footer-links">
+            <li><a href="#itinerary" data-nav-target="itinerary">15 日行程介紹</a></li>
+            <li><a href="#attractions" data-nav-target="attractions">經典景點與地圖</a></li>
+            <li><a href="#checklist" data-nav-target="checklist">行前行李清單</a></li>
+            <li><a href="#budget" data-nav-target="budget">花費預算記帳</a></li>
+            <li><a href="#journal" data-nav-target="journal">每日田野日誌</a></li>
+          </ul>
+        </div>
+        <div>
+          <div class="footer-col-title">重要法規與叮嚀</div>
+          <ul class="footer-links">
+            <li><a href="#home" data-nav-target="home">帛琉誓詞（Palau Pledge）</a></li>
+            <li><a href="https://palaugov.pw/" target="_blank" rel="noopener noreferrer">帛琉政府官方門戶</a></li>
+            <li><a href="https://picrc.org/" target="_blank" rel="noopener noreferrer">帛琉國際珊瑚礁中心</a></li>
+            <li><a href="https://www.boca.gov.tw/" target="_blank" rel="noopener noreferrer">外交部領事事務局</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 116年 (2027) 帛琉南島永續實踐計畫 · 青年百億海外圓夢基金計畫 N-10-3 團隊</span>
+        <span>出發日期：116年7月29日至8月12日</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Mobile Bottom Navigation Bar
+       ========================================================================= -->
+  <nav class="mobile-nav-bar" aria-label="行動版底部導覽列">
+    <button type="button" class="mobile-nav-btn active" data-nav-target="home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+      </svg>
+      <span>首頁</span>
+    </button>
+    <button type="button" class="mobile-nav-btn" data-nav-target="itinerary">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+      <span>行程</span>
+    </button>
+    <button type="button" class="mobile-nav-btn" data-nav-target="attractions">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </svg>
+      <span>景點</span>
+    </button>
+    <button type="button" class="mobile-nav-btn" data-nav-target="checklist">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <polyline points="9 11 12 14 22 4"></polyline>
+        <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+      </svg>
+      <span>清單</span>
+    </button>
+    <button type="button" class="mobile-nav-btn" data-nav-target="budget">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <line x1="12" y1="1" x2="12" y2="23"></line>
+        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+      </svg>
+      <span>記帳</span>
+    </button>
+    <button type="button" class="mobile-nav-btn" data-nav-target="journal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+        <path d="M12 20h9"></path>
+        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+      </svg>
+      <span>日誌</span>
+    </button>
+  </nav>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
